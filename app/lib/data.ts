@@ -9,6 +9,7 @@ import {
   Revenue,
 } from './definitions';
 import { formatCurrency } from './utils';
+import LatestInvoices from '../ui/dashboard/latest-invoices';
 
 export async function fetchRevenue() {
   // Add noStore() here to prevent the response from being cached.
